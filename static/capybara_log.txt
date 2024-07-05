@@ -1,0 +1,73 @@
+2023-10-09 10:08:44.385230: Login/UserLoggedIn/ifinehout2 IP:127.0.0.1
+2023-10-09 10:10:13.759298: Login/UserLoggedIn/ifinehout2 IP:127.0.0.1
+2023-10-09 10:11:03.284245: Login/UserLoggedIn/ifinehout2 IP:127.0.0.1
+2023-10-09 10:16:19.572905: Login/UserLoggedIn/ifinehout2 IP:127.0.0.1
+2023-10-09 10:17:50.068509: Login/UserLoggedIn/ifinehout2 IP:127.0.0.1
+2023-10-09 10:19:48.727684: Login/UserLoggedIn/ifinehout2 IP:127.0.0.1
+2023-10-09 10:20:34.630044: Login/UserLoggedIn/ifinehout2 IP:127.0.0.1
+2023-10-09 10:23:15.811194: Login/UserLoggedOut IP:127.0.0.1
+2023-10-09 10:23:26.108671: Login/UserLoggedIn/ifinehout IP:127.0.0.1
+2023-10-09 10:39:26.475537: Login/UserLoggedOut IP:127.0.0.1
+2023-10-09 10:39:34.898570: Login/UserLoggedIn/ifinehout IP:127.0.0.1
+2023-10-09 10:58:42.656463: Login/UserLoggedOutifinehout IP:127.0.0.1
+2023-10-09 10:58:52.094486: Login/UserLoggedIn/ifinehout IP:127.0.0.1
+2023-10-09 11:03:57.580253: Error/Login/Passwords do not match IP:127.0.0.1
+2023-10-09 11:04:08.269513: Login/UserLoggedIn/ifinehout IP:127.0.0.1
+2023-10-09 11:08:16.899506: Error/ChangePassword/New password cannot be the same as old password IP:127.0.0.1
+2023-10-09 11:08:42.498168: Error/ChangePassword/New password cannot be the same as old password IP:127.0.0.1
+2023-10-09 11:09:05.776387: ChangePassword/ifinehout IP:127.0.0.1
+2023-10-09 11:10:42.342815: ChangePassword/ifinehout IP:127.0.0.1
+2023-10-09 11:10:42.655176: Login/UserLoggedOut/ifinehout IP:127.0.0.1
+2023-10-09 11:10:50.647042: Error/UnauthorizedAccessAttempt/<function capybara_homepage at 0x000002239609E200> IP:127.0.0.1
+2023-10-09 11:13:19.898447: Error/UnauthorizedAccessAttempt/<class 'function'> IP:127.0.0.1
+2023-10-09 11:14:35.977680: Error/UnauthorizedAccessAttempt/capybara_homepage IP:127.0.0.1
+2023-10-09 16:10:10.529452: Error/Login/Passwords do not match IP:127.0.0.1
+2023-10-09 16:10:19.060732: Login/UserLoggedIn/ifinehout IP:127.0.0.1
+2023-10-09 16:10:35.818798: Error/ChangePassword/The attempted password is in a list of the most common passwords IP:127.0.0.1
+2023-10-09 16:22:20.111195: Login/UserLoggedOut/ifinehout IP:127.0.0.1
+2023-10-09 16:22:28.815288: Error/Registration/User is already registered IP:127.0.0.1
+2023-10-09 16:22:55.944608: Error/Registration/Password must include at least 1 special character IP:127.0.0.1
+2023-10-09 16:23:39.898225: Error/Registration/Password must include at least 1 lowercase character IP:127.0.0.1
+2023-10-09 16:24:03.210505: Error/Registration/Password must include at least 1 uppercase character IP:127.0.0.1
+2023-10-09 16:24:17.776890: Registration/NewUser/ifinehout3 IP:127.0.0.1
+2023-10-09 16:24:38.896847: Login/UserLoggedIn/ifinehout3 IP:127.0.0.1
+2023-10-09 16:24:49.254359: Error/ChangePassword/Incorrect current password IP:127.0.0.1
+2023-10-09 16:25:08.802680: Error/ChangePassword/New password cannot be the same as old password IP:127.0.0.1
+2023-10-09 16:25:25.611416: Error/ChangePassword/Passwords must match IP:127.0.0.1
+2023-10-09 16:25:38.370601: Error/ChangePassword/Password must include at least 1 special character IP:127.0.0.1
+2023-10-09 16:25:51.759606: ChangePassword/ifinehout3 IP:127.0.0.1
+2023-10-09 16:25:52.077317: Login/UserLoggedOut/ifinehout3 IP:127.0.0.1
+2023-10-10 08:51:09.397275: Error/Registration/The attempted password is in a list of the most common passwords IP:127.0.0.1
+2023-10-10 08:51:47.103098: Error/Registration/The attempted password is in a list of the most common passwords IP:127.0.0.1
+2023-10-10 08:52:22.488531: Error/Registration/The attempted password is in a list of the most common passwords IP:127.0.0.1
+2023-10-10 08:52:56.029994: Error/Registration/The attempted password is in a list of the most common passwords IP:127.0.0.1
+2023-10-10 08:54:26.657866: Error/Registration/The attempted password is in a list of the most common passwords IP:127.0.0.1
+2023-10-10 08:56:14.853739: Error/Registration/User is already registered IP:127.0.0.1
+2023-10-10 08:57:15.037222: Registration/NewUser/CapybaraFan IP:127.0.0.1
+2023-10-10 08:57:37.417757: Error/Registration/User is already registered IP:127.0.0.1
+2023-10-10 08:58:01.534277: Error/Login/Passwords do not match IP:127.0.0.1
+2023-10-10 08:58:21.049130: Login/UserLoggedIn/CapybaraFan IP:127.0.0.1
+2023-10-10 08:59:06.237229: Error/ChangePassword/New password cannot be the same as old password IP:127.0.0.1
+2023-10-10 08:59:20.965236: ChangePassword/CapybaraFan IP:127.0.0.1
+2023-10-10 08:59:21.275000: Login/UserLoggedOut/CapybaraFan IP:127.0.0.1
+2023-10-10 08:59:37.345348: Login/UserLoggedIn/CapybaraFan IP:127.0.0.1
+2023-10-10 08:59:39.703272: Login/UserLoggedOut/CapybaraFan IP:127.0.0.1
+2023-10-10 08:59:50.356759: Error/UnauthorizedAccessAttempt/<function capybara_homepage at 0x000002BE5ADE22A0> IP:127.0.0.1
+2023-10-10 09:00:05.219921: Error/UnauthorizedAccessAttempt/<function capybara_action at 0x000002BE5ADE2A20> IP:127.0.0.1
+2023-10-10 09:00:12.536880: Error/UnauthorizedAccessAttempt/<function capybara_popculture at 0x000002BE5ADE27A0> IP:127.0.0.1
+2023-10-10 09:00:18.928440: Error/UnauthorizedAccessAttempt/<function capybara_nature at 0x000002BE5ADE2660> IP:127.0.0.1
+2023-10-10 10:25:46.424068: Login/UserLoggedIn/CapybaraFan IP:127.0.0.1
+2023-10-10 10:26:07.975901: Error/ChangePassword/New password cannot be the same as old password IP:127.0.0.1
+2023-10-10 10:26:48.534112: Error/ChangePassword/Passwords must match IP:127.0.0.1
+2023-10-10 10:27:29.139294: Error/ChangePassword/Password must be at least 12 characters in length IP:127.0.0.1
+2023-10-10 10:28:07.280014: Error/ChangePassword/Incorrect current password IP:127.0.0.1
+2023-10-10 10:28:25.806987: Error/ChangePassword/Password must include at least 1 special character IP:127.0.0.1
+2023-10-10 10:28:59.485479: Error/ChangePassword/Password must include at least 1 uppercase character IP:127.0.0.1
+2023-10-10 10:29:48.776510: Error/ChangePassword/Password must include at least 1 digit IP:127.0.0.1
+2023-10-10 10:32:31.593335: Error/ChangePassword/The attempted password is in a list of the most common passwords IP:127.0.0.1
+2023-11-27 18:07:48.456702: Error/Registration/Passwords must match IP:127.0.0.1
+2023-11-27 18:08:10.275657: Error/Registration/Passwords must match IP:127.0.0.1
+2023-11-27 18:08:36.433306: Registration/NewUser/ifinehout5 IP:127.0.0.1
+2023-11-27 18:08:44.788078: Error/Login/Passwords do not match IP:127.0.0.1
+2023-11-27 18:08:53.138914: Login/UserLoggedIn/ifinehout5 IP:127.0.0.1
+2023-11-27 18:10:52.262022: Login/UserLoggedOut/ifinehout5 IP:127.0.0.1

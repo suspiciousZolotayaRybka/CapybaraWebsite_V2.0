@@ -1,0 +1,37 @@
+<!-- SDEV 300 6384
+Author: Isaac Finehout
+Date: 5 October 2023
+CapybaraPopculture.html -->
+
+<!DOCTYPE html><html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CapybaraStyle.css') }}">
+    <!-- Popculture Title -->
+    <title>Capybara: Popculture</title>
+</head>
+<body>
+    <!-- Popculture Body -->
+    <h1>Capybara in Popculture</h1>
+    <p>The Capybara's chill demeanor has caused it to have quite a rise in "meme" popculture in recent years,
+    as demonstrated by the entertainment site Urban Dictionary.</p>
+    <p>Capybara has over 20 definitions and 300 upvotes on urbandictionary.com.</p>
+    <p>As to what the capybara thinks of its rise to fame, it's hard to tell from its stoic facial expression.</p>
+        <h2>Top Capybara "memes" from <a href="https://www.urbandictionary.com/define.php?term=Capybara", target="_blank">
+        Urban Dictionary</a> include:</h2>
+        <ul>
+        <li>"ok i pull up", in reference to the capybara's connection to the song After Party by Don Toliver, representing the capybara's nonchalant nature.</li>
+        <li>Capybara - "Someone who is chill with everyone."</li>
+        <li>Capybara - "friend shaped".</li>
+        </ul>
+	<p></p>
+        <p><a href={{ url_for('capybara_homepage', capy_name=capy_name) }}>Capybara Homepage</a></p>
+<footer>
+    <p> {{current_date}} </p>
+    <a href="https://knowyourmeme.com/memes/ok-i-pull-up">
+    <p>https://knowyourmeme.com/memes/ok-i-pull-up</p>
+    <img src="{{url_for('static', filename='capybaraimg-popculture.png')}}" align="middle" alt="A Capybara riding shotgun">
+    </a>
+    <p>ok i pull up</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!-- SDEV 300 6384
+Author: Isaac Finehout
+Date: 5 October 2023
+CapybaraAction.html -->
+
+<!DOCTPYE html><html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CapybaraStyle.css') }}">
+    <!-- Action Title -->
+    <title>Capybara: Action</title>
+</head>
+<body>
+    <!-- Action Body -->
+    <h1>Capybara in Action</h1>
+    <p>Follow the Youtube videos below to learn more about this cool dude, and to see him in Action!</p>
+    <ol>
+    <li><a href="https://www.youtube.com/watch?v=TCLRfSWi0lc", target="_blank">
+    Capybaras, the Largest and 'Chillest' Rodents in the World -Crazy Creatures</a></li>
+    <li><a href="https://www.youtube.com/watch?v=wE6pEsjgdHo", target="_blank">
+    A Capybara Family's Day at Play | Deadly Game -Nato Geo WILD</a></li>
+    <li><a href="https://www.youtube.com/watch?v=s9oQRKsROF8", target="_blank">
+    ok i pull up capybara -capybaross.</a></li>
+    </ol>
+    <p></p>
+    <p><a href={{ url_for('capybara_homepage', capy_name=capy_name) }}>Capybara Homepage</a></p>
+<footer>
+    <p> {{current_date}} </p>
+    <a href="https://www.pbs.org/video/capybaras-wetlands-shqkc8/">
+    <p>https://www.pbs.org/video/capybaras-wetlands-shqkc8/</p>
+    <img src="{{url_for('static', filename='capybaraimg-action.png')}}" align="middle" alt="A Capybara herd bathing in a pond">
+    </a>
+    <p>Come on in, the water's just fine!</p>
+</footer>
+</body>
+</html>

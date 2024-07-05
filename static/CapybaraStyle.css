@@ -1,0 +1,106 @@
+/*SDEV 300 6384
+Author: Isaac Finehout
+Date: 5 October 2023
+CapybaraStyle.css
+Colors were based on the capybara, such as warm backgrounds and teal links,
+representing the aquatic capybara's chill nature.*/
+
+/* Body styles */
+body {
+    font-family: "Comic Sans MS", cursive;
+    background-color: #f0ece8; /* Soft brown background */
+    color: #4d4d4d; /* Nice brown of the capybara */
+}
+
+/* List item styles */
+li {
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+/* Link menu styles */
+a {
+    color: #008080; /* Teal link color */
+}
+
+/* Content styles */
+p {
+    line-height: 1.6;
+}
+
+/* Capybara Username */
+#capy-name {
+    position: fixed;
+    right: 0px;
+    margin: 5px
+    padding: 5px;
+    width: 25%;
+    color: #ff5722;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border-collapse: collapse;
+}
+
+th {
+    color: #28a745;
+}
+
+#name-table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ffffff;
+}
+
+#name-table th, #name-table td {
+    border: 2px solid #ffffff;
+}
+
+#register-table {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+    border: 2px solid #000000;
+}
+
+#register-table th, #register-table td {
+    border: 2px solid #000000;
+}
+
+
+/* Forms */
+div {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input.submit {
+    margin-left: 160px;
+}
+
+#login-error {
+    font-size: 11px;
+    margin-left: 80px;
+    color: #ff0000;
+}

@@ -1,0 +1,39 @@
+<!-- SDEV 300 6384
+Author: Isaac Finehout
+Date: 5 October 2023
+CapybaraHomepage.html -->
+
+<!DOCTYPE html><html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CapybaraStyle.css') }}">
+    <!-- Homepage Title -->
+    <title>Capybara Homepage</title>
+</head>
+<body>
+    <!-- Homepage Body -->
+    <p id="capy-name">Current User: {{capy_name}}
+    <br><a href="{{ url_for('change_password', capy_name=capy_name ) }}">Change Password</a>
+    <br><a href="{{ url_for('logout') }}">Logout</a>
+    </p>
+    <h1>Capybara Homepage</h1>
+        <h2>One Large Cute Rodent</h2>
+        <p>In all the trials and tribulations of today's world, <br>it can help to take a step back, breathe, and look at some pictures of this cute rodent.</p>
+            <h3>Capybara Link List</h3>
+            <dl>
+            <dt><a href="{{ url_for('capybara_popculture', capy_name=capy_name) }}", target="_blank">Capybara in Pop Culture</a></dt>
+                <dd>The capybara's rise to fame in recent popculture.</dd>
+            <dt><a href="{{ url_for('capybara_nature', capy_name=capy_name) }}", target="_blank">Capybara in Nature</a></dt>
+                <dd>Interesting nature facts about the capybara.</dd>
+            <dt><a href="{{ url_for('capybara_action', capy_name=capy_name) }}", target="_blank">Capybara in Action</a></dt>
+                <dd>Videos of the capybara.</dd>
+            </dl>
+<footer>
+    <p> {{current_date}} </p>
+    <a href="https://www.rainforest-alliance.org/species/capybara/">
+    <p>https://www.rainforest-alliance.org/species/capybara/</p>
+    <img src="{{url_for('static', filename='capybaraimg-homepage.png')}}" align="middle" alt="A Capybara headshot">
+    </a>
+    <p>Hi there!</p>
+</footer>
+</body>
+</html>

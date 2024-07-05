@@ -1,0 +1,39 @@
+<!-- SDEV 300 6384
+Author: Isaac Finehout
+Date: 5 October 2023
+CapybaraNature.html -->
+
+<!DOCTYPE html><html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CapybaraStyle.css') }}">
+    <!-- Nature Title -->
+    <title>Capybara: Nature</title>
+</head>
+<body>
+    <!-- Nature Body -->
+    <h1>Capybara in Nature</h1>
+    <p>The Capybara is one cute fellow. Due to this creature's cuteness, it may be tempting to over
+    look its magnificent presence in nature.</p>
+    <p>Scuttle on over to the interesting capybara facts listed below, taken from 
+    <a href="https://www.britannica.com/animal/capybara-genus", target="_blank">Britannica Online Encyclopedia</a>
+    to see what this fellow looks like in nature.</p>
+        <h2>Capybara Facts</h2>
+        <ul>
+        <li>Capybara are also known as carpincho or water hog.</li>
+        <li>Larger capybara are the largest rodent in the world.</li>
+        <li>Capybara are shy, but live in groups.</li>
+        <li>Capybara can dive into water to escape dangerous predators.</li>
+        <li>Some countries eat capybara meat.</li>
+        </ul>
+	<p></p>
+        <p><a href={{ url_for('capybara_homepage', capy_name=capy_name) }}>Capybara Homepage</a></p>
+<footer>
+    <p> {{current_date}} </p>
+    <a href="https://www.britannica.com/animal/capybara-genus">
+    <p>https://www.britannica.com/animal/capybara-genus</p>
+    <img src="{{url_for('static', filename='capybaraimg-nature.png')}}" align="middle" alt="Capybaras basking on the shore">
+    </a>
+    <p>It's a nice day for some sun.</p>
+</footer>
+</body>
+</html>

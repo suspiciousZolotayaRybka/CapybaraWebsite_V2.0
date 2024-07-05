@@ -1,0 +1,173 @@
+<!-- Author: Isaac Finehout
+Date: 5 October 2023
+CapybaraRegister.html -->
+
+<!DOCTYPE html><html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CapybaraStyle.css') }}">
+    <!-- Register Title -->
+    <title>Capybara: Register</title>
+</head>
+<body>
+    <!-- Register Body -->
+    <h1>Capybara Register</h1>
+    {% if error %}
+        <p id="login-error">{{ error }}</p>
+    {% endif %}
+    <form method="post">
+        <table id="register-table">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input name="username" id="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" id="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm-password">Confirm Password</label></td>
+                <td><input type="password" name="confirm-password" id="confirm-password" required></td>
+            </tr>
+            <tr>
+                <td><label for="capy-name-select">Capybara Name</label></td>
+                <td>
+                <select name="capy-name-select" id="capy-name-select">
+                    <option value="Bara">Bara</option>
+                    <option value="Binky">Binky</option>
+                    <option value="Biscuit">Biscuit</option>
+                    <option value="Bubbles">Bubbles</option>
+                    <option value="Caramel">Caramel</option>
+                    <option value="Capy">Capy</option>
+                    <option value="Cheeks">Cheeks</option>
+                    <option value="Chip">Chip</option>
+                    <option value="Chomper">Chomper</option>
+                    <option value="Cookie">Cookie</option>
+                    <option value="Cuddle">Cuddle</option>
+                    <option value="Floof">Floof</option>
+                    <option value="Fluffy">Fluffy</option>
+                    <option value="Fuzzy">Fuzzy</option>
+                    <option value="Hopper">Hopper</option>
+                    <option value="Marshy">Marshy</option>
+                    <option value="Munchkin">Munchkin</option>
+                    <option value="Nibbler">Nibbler</option>
+                    <option value="Nutty">Nutty</option>
+                    <option value="Paws">Paws</option>
+                    <option value="Pecan">Pecan</option>
+                    <option value="Popcorn">Popcorn</option>
+                    <option value="Popsicle">Popsicle</option>
+                    <option value="Pudding">Pudding</option>
+                    <option value="Pumpkin">Pumpkin</option>
+                    <option value="Scooter">Scooter</option>
+                    <option value="S'mores">S'mores</option>
+                    <option value="Snickers">Snickers</option>
+                    <option value="Snowball">Snowball</option>
+                    <option value="Sprout">Sprout</option>
+                    <option value="Squeaky">Squeaky</option>
+                    <option value="Tofu">Tofu</option>
+                    <option value="Tumble">Tumble</option>
+                    <option value="Whiskers">Whiskers</option>
+                    <option value="Wiggles">Wiggles</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2'><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+    <p>Password must be over 12 digits, have a lowercase, uppercase, digit, and punctuation.</p>
+<footer>
+    <p> {{current_date}} </p>
+<table id="name-table">
+    <caption>
+    <details>
+    <summary>Capybara Names</summary>
+    <p>Find the element that corresponds to your birthdate and choose that as your Capybara name!</p>
+    </details>
+    </caption>
+    <tr>
+        <th rowspan="2">Month</th>
+        <th colspan="3">Day</th>
+    </tr>
+    <tr>
+        <th>1-10</th>
+        <th>11-20</th>
+        <th>21-31</th>
+    </tr>
+    <tr>
+        <th>January</th>
+        <td>Capy</td>
+        <td>Bara</td>
+        <td>Chomper</td>
+    </tr>
+    <tr>
+        <th>February</th>
+        <td>Whiskers</td>
+        <td>Paws</td>
+        <td>Nibbler</td>
+    </tr>
+    <tr>
+        <th>March</th>
+        <td>Floof</td>
+        <td>Cuddle</td>
+        <td>Bubbles</td>
+    </tr>
+    <tr>
+        <th>April</th>
+        <td>Squeaky</td>
+        <td>Wiggles</td>
+        <td>Fuzzy</td>
+    </tr>
+    <tr>
+        <th>May</th>
+        <td>Nutty</td>
+        <td>Hopper</td>
+        <td>Marshy</td>
+    </tr>
+    <tr>
+        <th>June</th>
+        <td>Binky</td>
+        <td>Caramel</td>
+        <td>Snickers</td>
+    </tr>
+    <tr>
+        <th>July</th>
+        <td>Munchkin</td>
+        <td>Cheeks</td>
+        <td>Popcorn</td>
+    </tr>
+    <tr>
+        <th>August</th>
+        <td>Cookie</td>
+        <td>Biscuit</td>
+        <td>Pudding</td>
+    </tr>
+    <tr>
+        <th>September</th>
+        <td>Scooter</td>
+        <td>Pippin</td>
+        <td>Sprout</td>
+    </tr>
+    <tr>
+        <th>October</th>
+        <td>Fluffy</td>
+        <td>Tumble</td>
+        <td>Chip</td>
+    </tr>
+    <tr>
+        <th>November</th>
+        <td>Pecan</td>
+        <td>Pumpkin</td>
+        <td>Popsicle</td>
+    </tr>
+    <tr>
+        <th>December</th>
+        <td>Tofu</td>
+        <td>Snowball</td>
+        <td>S'mores</td>
+    </tr>
+</table>
+    <a href="http://localhost:5000/CapybaraLogin">Capybara Login</a>
+</footer>
+</body>
+</html>
